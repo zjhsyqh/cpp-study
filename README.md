@@ -1,8 +1,7 @@
 # cpp-study
- C++学习
+C++学习仓库
 
-# C++ STL 学习仓库
-> 个人学习记录｜大一C++与STL练习代码
+> 个人学习记录 | 大一C++与STL练习代码
 
 ## 📚 学习内容
 - vector 动态数组
@@ -11,6 +10,8 @@
 - set / unordered_set
 - algorithm 常用算法：sort, find, for_each
 - 迭代器、容器失效问题
+- 运算符重载（+、<< 左移重载）
+- 友元函数
 
 ## 💻 编译环境
 编译器：g++ / MSVC
@@ -30,4 +31,8 @@ cpp-study/
     ├── map/
     ├── unordered_map/
     ├── set/
-    └── algorithm/
+    ├── unordered_set/
+    ├── algorithm/
+    └── overload/          # 新增：运算符重载练习
+        ├── overload1.cpp
+        └── overload2.cpp
